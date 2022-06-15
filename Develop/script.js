@@ -45,7 +45,7 @@ function generatePassword() {
     console.log("Password length " + passwordLength);
     generatePassword();
   }
-  // confirms what type of character the user wants in their password
+  // confirms what type of characters the user wants in their password
   else {
     confirmLower = confirm("Click ok to include lower case letters.");
     console.log("Lower case " + confirmLower);
@@ -125,7 +125,7 @@ function generatePassword() {
     passwordBlank.push(allChoices);
     console.log(allChoices);
   }
-  
+
   var password = passwordBlank.join("");
   console.log("Your password is: " + password);
   return password;
